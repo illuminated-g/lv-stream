@@ -12,6 +12,9 @@
 	<Item Name="Data Types" Type="Folder">
 		<Item Name="Connection State.ctl" Type="VI" URL="../Connection State.ctl"/>
 	</Item>
+	<Item Name="Utilities" Type="Folder">
+		<Item Name="Implode String.vi" Type="VI" URL="../Implode String.vi"/>
+	</Item>
 	<Item Name="Connection.lvclass" Type="LVClass" URL="../Connection/Connection.lvclass"/>
 	<Item Name="Endpoint.lvclass" Type="LVClass" URL="../Endpoint/Endpoint.lvclass"/>
 	<Item Name="Stream.lvclass" Type="LVClass" URL="../Stream/Stream.lvclass"/>
