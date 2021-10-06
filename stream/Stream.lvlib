@@ -14,6 +14,7 @@
 	</Item>
 	<Item Name="Data Types" Type="Folder">
 		<Item Name="Connection State.ctl" Type="VI" URL="../Connection State.ctl"/>
+		<Item Name="Mode.ctl" Type="VI" URL="../Mode.ctl"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
 		<Item Name="Implode String.vi" Type="VI" URL="../Implode String.vi"/>
