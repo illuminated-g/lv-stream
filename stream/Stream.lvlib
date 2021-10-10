@@ -16,6 +16,9 @@
 		<Item Name="Connection State.ctl" Type="VI" URL="../Connection State.ctl"/>
 		<Item Name="Mode.ctl" Type="VI" URL="../Mode.ctl"/>
 	</Item>
+	<Item Name="Streams" Type="Folder">
+		<Item Name="FileStream.lvclass" Type="LVClass" URL="../FileStream/FileStream.lvclass"/>
+	</Item>
 	<Item Name="Utilities" Type="Folder">
 		<Item Name="Implode String.vi" Type="VI" URL="../Implode String.vi"/>
 	</Item>
