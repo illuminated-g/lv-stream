@@ -2,6 +2,7 @@
 <LVClass LVVersion="20008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">Stream.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Stream.lvlib</Property>
+	<Property Name="NI.Lib.Description" Type="Str">Parses and builds URI strings. See https://en.wikipedia.org/wiki/Uniform_Resource_Identifier#Syntax for a description of all the components of a URI.</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)6!!!*Q(C=\&gt;3^51*2&amp;-8RIW.A9))6/,2Q7K!&amp;7LAN9%B)!3;X"6KAB&gt;M#G4%NY(]@&gt;^2!*:%::_1NFY_T\_0(WZW62LO8\H1]VZZ`&lt;*`0([@8'((]Y8S`87$]=Q`^^PR8@FX&lt;N@XPND\X#,A]Y5&lt;4AYAK+KGAL'HJ9Z%8?:%8?:%8?:)H?:)H?:)H?:!(?:!(?:!(O=F.&lt;H+4G^TEYS!8O=B&amp;$KF9P&amp;CIG,39I/A-2=6&lt;Y3E]B;@Q]&amp;/&amp;J`!5HM*4?/CCQF.Y#E`B+4Q-5_%J0)7H]"1?JBK3'A=ZHM,$^%I]C3@R**\%QZ*+0!EA73S:/*E%BJ+4S:@%EXA3$V_6?"*0YEE]C9@43DS**`%EHM4$E,%L/44419[(;22Y!E`A#4S"B[E6?!*0Y!E]A9@F&amp;(A#4Y!)&amp;AQGB["A5.!B_"&amp;Y!A]@#DS"*`!%HM$$K8'&amp;9OT-J*E/=DT'9TT'9TT'QR1S(O-R(O-R(K;6]2C0]2C0]&lt;#5D-&gt;YD-&gt;!T+)M,T/:'7A[G="Y?)W\R?-KZ:"Y(&amp;,@P/K&lt;5HWTK7]C^=WBPODKC[G_3/L.6W_K?L05G[$_=WKU'K.?2$VY[KA$\XNK2WWJ$&lt;7CFN3#GF/T;?AP&gt;TQ=$NLP^^LN&gt;NJON^JM.FKN6FIOFVIM&amp;JL0ZZL.:O_0A3?/^Q@#[&lt;GUZPP[]:6[_@B]I%Z^,NX_Q,.2N`K]$HPU"EUE4W1!!!!!</Property>
 	<Property Name="NI.Lib.LocalName" Type="Str">URI</Property>
