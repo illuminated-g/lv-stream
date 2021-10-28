@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 20:33:44" Modified_Date="2021-10-27 14:17:41" Creator="hal_dev" Comments="" ID="20dcb7c0086c6afa7c98bb52ddeb9a79">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 20:33:44" Modified_Date="2021-10-28 16:28:34" Creator="hal_dev" Comments="" ID="25dc9e3e36725fe9d118bbb1f96ee454">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_Stream_Base</Package_File_Name>
-    <Library_Version>0.1.0.12</Library_Version>
+    <Library_Version>0.1.0.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\build\vip</Library_Output_Folder>
@@ -34,7 +34,7 @@ As this is 90% an abstract base library there are no examples demonstrating its 
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/lv-stream</URL>
-      <Release_Notes>Initial release of base library with FileStream and StringStream concrete classes.</Release_Notes>
+      <Release_Notes>Add ability for endpoint children to set state properly in base endpoint class to fix a shutdown bug</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -287,7 +287,7 @@ This architecture is broken up in to 3 main classes:
         <Path>Streams</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>95B358436CA05C342D168304462298AE</GUID>
+      <GUID>AE429023A1FBC3130264752969D27A09</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -602,7 +602,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\Stream\Get Mode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0C45AC3D05D052F516E866C6C88D2981</GUID>
+      <GUID>4579C497277D7C832D03048E41820A6B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -861,7 +861,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\URI\Lookup Query Parameter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FB93E072B731B7DBA2E8DB891B5BB259</GUID>
+      <GUID>99F7680A52C1DE98B7C9F1760420CEB8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -910,7 +910,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\FileStream\Init.vi</Path>
         <VI_Title>FileStream</VI_Title>
       </Items_Data>
-      <GUID>F5BED880C18B33D7481812A5BD94E742</GUID>
+      <GUID>477AC416B3E8C86BAA78E0471CAE6C99</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
