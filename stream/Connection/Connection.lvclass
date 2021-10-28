@@ -2,6 +2,7 @@
 <LVClass LVVersion="20008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">Stream.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Stream.lvlib</Property>
+	<Property Name="NI.Lib.Description" Type="Str">Connection represents a single communication channel. Connections are spawned by Servers or can be created directly as with a client and are where the connection state is managed.</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)P!!!*Q(C=\&gt;1\4C."&amp;)8B-QAE5M]+2N\#X9*8A/1NX#UYN9E=%*,=,4C@S&amp;MY-:GXY#W9P]JFAR$A"+32BGJ80U\8YX.VK[6?&lt;K6L(3[6GU`,[8Y`NFX`(9_P\L_EB].J^_&lt;_O&gt;'JR1@^XRX`UPQ@_`64@ML`8:;80A(@4`CF^C'CGFL5J)&lt;;V!?4G^TE*D?ZS9O]S)O]S)O]S*-]S:-]S:-]S9-]S)-]S)-]S0N',H+2CRS3G&gt;R-:!9V!ZD'5'2WRG-]RG-]8-JYD-&gt;YD-&gt;Y;#,D-2\D-2\DI:O-RXC-RXC-B['[R(UDRW-]$+`#5XA+4_%J0%SJQF-!CMG+A9N"9+CY7:Q5HM*4?$B6Y3E]B;@Q&amp;"ZOK`!5HM*4?!I08@KK6.?UD2Q0QSDR**\%EXA3$U-L]33?R*.Y%A`4+@%EHA324*A-$E&amp;*J[2"=J&amp;Y%A](*:\%EXA34_,B6H^#W6?G;&gt;J'DC@Q"*\!%XA#$U-I]!3?Q".Y!A`$+P!%HM!4?!)05SHQ"*\!%U##3:F?Q7""R["2%!1?@PVNC@[5KEOC&lt;^*Y?46?3IW84?-FUHAZ."[[RM05?%A;C[_RK"K,J&lt;%)'H^/![W"U:B%IX.LK$X\(86,X6$8V!6V4JV2J^2*[`L&amp;$@@\P8;\H&lt;&lt;&lt;L4;&lt;D&gt;&lt;LN2;,B?&lt;TO7;TG;&lt;4K3;4S@ET])@N`%%Y@J?7H+]?(F@X&gt;U_L_^^`/4[OWP8SW/;\ST`Q&lt;&gt;368M`$'DU$;9]1F!!!!!!</Property>
 	<Property Name="NI.Lib.LocalName" Type="Str">Connection</Property>

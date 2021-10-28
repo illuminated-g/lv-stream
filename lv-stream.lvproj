@@ -18,6 +18,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Test StringStream Position.vi" Type="VI" URL="../test/StringStream/Test StringStream Position.vi"/>
+		</Item>
 		<Item Name="Stream.lvlib" Type="Library" URL="../stream/Stream.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

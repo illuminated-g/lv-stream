@@ -2,6 +2,9 @@
 <LVClass LVVersion="20008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">Stream.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Stream.lvlib</Property>
+	<Property Name="NI.Lib.Description" Type="Str">Endpoints manage connection(s). Typically they'll be either a client that initiates a single connection to another endpoint or a server that can spawn multiple connections.
+
+Endpoints by themselves don't correspond to the ability to transfer data as they are connection management. Client implementations however are typically both connections and endpoints </Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)^!!!*Q(C=\&gt;3^41."%)&lt;B$U2![M!Z=AN4A36(E#!E*YBY!BJQ[A#"1^+2K-!NO)6JQ1%.O!8TXNZA(5*!!B)3\(L._&gt;O`B\X43;W=3C@;@V8'HZ;_PRP'R&lt;Z&gt;$,Y/`@X6[["R@1&lt;T_]G$2&gt;\WD]?$K&gt;8T]@\P_D`R[\`]F\^&gt;FF_^!H[?=+4O252,7N#=:OKWXC&gt;ZEC&gt;ZEC&gt;ZEA&gt;ZE!&gt;ZE!&gt;ZE$OZETOZETOZEROZE2OZE2OZE&lt;&gt;+,H+2CRR3MHGS5&lt;*IME!S')K3L]34?"*0YO'H%E`C34S**`%Q2)EH]33?R*.YG+&lt;%EXA34_**0#T6*.EK/:\%Q`)+0)%H]!3?Q-/7#DQ").AM7$B9");#TO!C]!3?Q-/F!E`A#4S"*`$1L=!4?!*0Y!E]4'GH%EX468)],#0(YXA=D_.R0#QNR_.Y()`D=4RM*]@D?"S%M['T/!1ZEZQ"TA`(YXDY)]@D?"S0YX%]&gt;,5\Z/VE/EV8S@%9(M.D?!S0Y7%*'2\$9XA-D_&amp;B72E?QW.Y$)`B93M:(M.D?!S)M3H&lt;SVD-G'A--A,$Q[=^,&gt;&lt;O5D3*N3L6Q[N[+&amp;50G_IB5DU=KJOOOJGKG[1[@.7BKAZ,&gt;1CK@U[&amp;6G&amp;5G[AG&gt;Q/VYXN,W^$7N"6N1:P4:L1*&lt;&gt;2.`?;"O^V/W_V7G]V'[`6;K^6+C]6#]`F=M^F-E]F%I^(I]"IYIRZ?#0V\;=HVQ]84]^XNV@4__G:[&gt;XYZ@&lt;BYH#\\-4^&gt;@M'\5==;\M-:P1$[_##"!!!!!!</Property>
 	<Property Name="NI.Lib.LocalName" Type="Str">Endpoint</Property>

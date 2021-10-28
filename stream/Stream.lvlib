@@ -18,6 +18,7 @@
 	</Item>
 	<Item Name="Streams" Type="Folder">
 		<Item Name="FileStream.lvclass" Type="LVClass" URL="../FileStream/FileStream.lvclass"/>
+		<Item Name="StringStream.lvclass" Type="LVClass" URL="../StringStream/StringStream.lvclass"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
 		<Item Name="Implode String.vi" Type="VI" URL="../Implode String.vi"/>
