@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 20:33:44" Modified_Date="2021-10-28 16:28:34" Creator="hal_dev" Comments="" ID="25dc9e3e36725fe9d118bbb1f96ee454">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 20:33:44" Modified_Date="2022-01-03 02:01:40" Creator="hal_dev" Comments="" ID="4f3bd94c2a13f431bea69b89b96f4867">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_Stream_Base</Package_File_Name>
-    <Library_Version>0.1.0.13</Library_Version>
+    <Library_Version>1.0.0.18</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\build\vip</Library_Output_Folder>
@@ -34,7 +34,9 @@ As this is 90% an abstract base library there are no examples demonstrating its 
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/lv-stream</URL>
-      <Release_Notes>Add ability for endpoint children to set state properly in base endpoint class to fix a shutdown bug</Release_Notes>
+      <Release_Notes>- Add sniffer callbacks so external components can see the data being written and read from streams.
+- Refactor Read/Write stream functionality with a static public VI and a protected dynamic VI to wrap the new sniffer functionality.
+- Connections that create streams now must call Stream:Prepare before a Stream can be used.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -223,6 +225,7 @@ As this is 90% an abstract base library there are no examples demonstrating its 
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
+      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>false</Edit_VI_Description>
@@ -287,7 +290,7 @@ This architecture is broken up in to 3 main classes:
         <Path>Streams</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AE429023A1FBC3130264752969D27A09</GUID>
+      <GUID>912C016E315E297E0ABD92F7EC513B68</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -602,7 +605,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\Stream\Get Mode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4579C497277D7C832D03048E41820A6B</GUID>
+      <GUID>A83DE2AFE2749F24F5B8114BC304343B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -861,7 +864,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\URI\Lookup Query Parameter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>99F7680A52C1DE98B7C9F1760420CEB8</GUID>
+      <GUID>A9FD18DFE3159A2CF552346DFA0F9573</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -910,7 +913,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\FileStream\Init.vi</Path>
         <VI_Title>FileStream</VI_Title>
       </Items_Data>
-      <GUID>477AC416B3E8C86BAA78E0471CAE6C99</GUID>
+      <GUID>2C2E52D7A4640BDBA23310F94DBF70E9</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
