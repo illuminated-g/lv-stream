@@ -19,6 +19,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="Test Resolve Relative.vi" Type="VI" URL="../test/Test Resolve Relative.vi"/>
 			<Item Name="Test StringStream Position.vi" Type="VI" URL="../test/StringStream/Test StringStream Position.vi"/>
 		</Item>
 		<Item Name="Stream.lvlib" Type="Library" URL="../stream/Stream.lvlib"/>

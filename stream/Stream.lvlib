@@ -23,7 +23,9 @@
 		<Item Name="StringStream.lvclass" Type="LVClass" URL="../StringStream/StringStream.lvclass"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
+		<Item Name="Has Trailing Slash.vi" Type="VI" URL="../Has Trailing Slash.vi"/>
 		<Item Name="Implode String.vi" Type="VI" URL="../Implode String.vi"/>
+		<Item Name="Set Trailing Slash.vi" Type="VI" URL="../Set Trailing Slash.vi"/>
 	</Item>
 	<Item Name="Connection.lvclass" Type="LVClass" URL="../Connection/Connection.lvclass"/>
 	<Item Name="Endpoint.lvclass" Type="LVClass" URL="../Endpoint/Endpoint.lvclass"/>
