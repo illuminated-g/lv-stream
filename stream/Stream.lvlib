@@ -25,6 +25,7 @@
 	<Item Name="Utilities" Type="Folder">
 		<Item Name="Has Trailing Slash.vi" Type="VI" URL="../Has Trailing Slash.vi"/>
 		<Item Name="Implode String.vi" Type="VI" URL="../Implode String.vi"/>
+		<Item Name="Regex Submatch Array.vi" Type="VI" URL="../Regex Submatch Array.vi"/>
 		<Item Name="Set Trailing Slash.vi" Type="VI" URL="../Set Trailing Slash.vi"/>
 	</Item>
 	<Item Name="Connection.lvclass" Type="LVClass" URL="../Connection/Connection.lvclass"/>
