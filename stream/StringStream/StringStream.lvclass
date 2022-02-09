@@ -89,22 +89,22 @@ This stream implementation can be used by formatters/serializers to do transform
 	<Item Name="Protected" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		<Item Name="_Read.vi" Type="VI" URL="../_Read.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;1!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]%2'&amp;U91!!0E"Q!"Y!!#--5X2S:7&amp;N,GRW&lt;'FC&amp;&amp;.U=GFO:V.U=G6B&lt;3ZM&gt;G.M98.T!""4&gt;(*J&lt;G&gt;4&gt;(*F97UA&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!N!!Q!&amp;1W^V&lt;H1!0%"Q!"Y!!#--5X2S:7&amp;N,GRW&lt;'FC&amp;&amp;.U=GFO:V.U=G6B&lt;3ZM&gt;G.M98.T!!^4&gt;(*J&lt;G&gt;4&gt;(*F97UA;7Y!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!)!!E$!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#!!!!*!!!!!!!1!+!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;E!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]%2'&amp;U91!!0E"Q!"Y!!#--5X2S:7&amp;N,GRW&lt;'FC&amp;&amp;.U=GFO:V.U=G6B&lt;3ZM&gt;G.M98.T!""4&gt;(*J&lt;G&gt;4&gt;(*F97UA&lt;X6U!!!51$$`````#EVF=X.B:W5A351!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!#U!$!!6$&lt;X6O&gt;!!]1(!!(A!!)QR4&gt;(*F97UO&lt;(:M;7)55X2S;7ZH5X2S:7&amp;N,GRW9WRB=X-!$V.U=GFO:V.U=G6B&lt;3"J&lt;A"5!0!!$!!$!!1!"1!'!!1!"Q!%!!1!#!!%!!E!#A-!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!#1!!!!!!!!!!!!!!#A!!!!!!!!!)!!!!E!!!!!!"!!M!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">50331784</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">50331776</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082655248</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
 		<Item Name="_Write.vi" Type="VI" URL="../_Write.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&amp;!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!D$&amp;.U=G6B&lt;3ZM&gt;GRJ9B24&gt;(*J&lt;G&gt;4&gt;(*F97UO&lt;(:D&lt;'&amp;T=Q!15X2S;7ZH5X2S:7&amp;N)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!/1$$`````"%2B&gt;'%!!$R!=!!?!!!D$&amp;.U=G6B&lt;3ZM&gt;GRJ9B24&gt;(*J&lt;G&gt;4&gt;(*F97UO&lt;(:D&lt;'&amp;T=Q!05X2S;7ZH5X2S:7&amp;N)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!2)!!!#3!!!!!!%!#1!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;:!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!D$&amp;.U=G6B&lt;3ZM&gt;GRJ9B24&gt;(*J&lt;G&gt;4&gt;(*F97UO&lt;(:D&lt;'&amp;T=Q!15X2S;7ZH5X2S:7&amp;N)'^V&gt;!!!&amp;%!Q`````QJ.:8.T97&gt;F)%F%!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!Z!-0````]%2'&amp;U91!!0%"Q!"Y!!#--5X2S:7&amp;N,GRW&lt;'FC&amp;&amp;.U=GFO:V.U=G6B&lt;3ZM&gt;G.M98.T!!^4&gt;(*J&lt;G&gt;4&gt;(*F97UA;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!'!!=!"!!)!!E$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!#%!!!!!A!!!!!!!!"%A!!!*!!!!!!!1!+!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">50331786</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1090519168</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082917392</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
