@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 20:33:44" Modified_Date="2022-02-09 22:24:07" Creator="hal_dev" Comments="" ID="552731b6cd6a72b70c9bd1765d3e0b05">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 20:33:44" Modified_Date="2022-04-13 12:56:54" Creator="hal_dev" Comments="" ID="ab946acee56c7028f251fd907ca7baf9">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_Stream_Base</Package_File_Name>
-    <Library_Version>1.1.0.32</Library_Version>
+    <Library_Version>1.1.0.33</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\build\vip</Library_Output_Folder>
@@ -288,7 +288,7 @@ This architecture is broken up in to 3 main classes:
         <Path>Streams</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5D5D5E4CE64C5819F675F509A3D74141</GUID>
+      <GUID>2672CC3F591BA0C33BA7C59B4D0DB47B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -645,7 +645,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\Endpoint\Has Callbacks.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6EA816F6368494EE390BA6C89FC95BB5</GUID>
+      <GUID>729EEA0FAB235EE1B0A43FAF2867216D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -932,7 +932,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\URI\Set URI String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CAAC9CDEF457D9B06396FA69FC1CC213</GUID>
+      <GUID>C208A288CB93A601AB7DBAE8687636E7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -981,7 +981,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\FileStream\Init.vi</Path>
         <VI_Title>FileStream</VI_Title>
       </Items_Data>
-      <GUID>EA5C38A9D612A7EF06D53129CCF5AF74</GUID>
+      <GUID>EDA78632BDCEDD8AF4AC7D66A06B29E3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
