@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 20:33:44" Modified_Date="2022-10-23 16:57:44" Creator="hal_dev" Comments="" ID="7f3a4b67cceace579d2dde611163cb06">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 20:33:44" Modified_Date="2022-11-02 20:48:05" Creator="hal_dev" Comments="" ID="e72fa8a9f1fdb71a9670fc093eb940e4">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_Stream_Base</Package_File_Name>
-    <Library_Version>1.2.0.42</Library_Version>
+    <Library_Version>1.2.0.45</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\vip</Library_Output_Folder>
@@ -38,7 +38,9 @@ As this is 90% an abstract base library there are no examples demonstrating its 
 - Made Close hierarchy re-entrant
 - Removed malleability of stream writing, only intent at this base layer is to handle already flattened data.
 - Added convenience paramters/values to stream for reading/writing length prepended data
-- Prevent sniffer callbacks from triggering on empty data</Release_Notes>
+- Prevent sniffer callbacks from triggering on empty data
+- DD Is Open VI so that concrete implementations determine whether the endpoint is open or not and removed Open state from base Endpoint class
+- Add "Context" variant data to connection state callbacks to enable sending arbitrary data to callbacks.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -292,7 +294,7 @@ This architecture is broken up in to 3 main classes:
         <Path>Streams</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D09ADE1F3E052C75C5263E7EADAE1037</GUID>
+      <GUID>8E6E0573A58003487D83DE229D82EA6F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -437,20 +439,6 @@ This architecture is broken up in to 3 main classes:
         </Position>
         <Icon>00000000</Icon>
         <Path>stream\Endpoint\Cleanup.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Set Mode.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>5</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>stream\Endpoint\Set Mode.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -621,7 +609,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\Endpoint\Has Callbacks.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F885A0385D7ABA374A67388473BC0257</GUID>
+      <GUID>79FE04E7EC7DEBB2789F68C5F585A94D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -908,7 +896,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\URI\Set URI String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9DA0FB34B588784ED8A6BA3FAE9E2380</GUID>
+      <GUID>6F6FF9996635DB0CD5B4A899C7FECD56</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -957,7 +945,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\FileStream\Init.vi</Path>
         <VI_Title>FileStream</VI_Title>
       </Items_Data>
-      <GUID>55A1FAF2166D96A80471A118726223B1</GUID>
+      <GUID>2AD3122225D4145F4A082EB98B5DFCD0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

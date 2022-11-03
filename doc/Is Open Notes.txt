@@ -1,0 +1,5 @@
+Is Open should be implemented to follow these rules for proper functionality:
+
+Is Open should be implemented to return False under the following conditions:
+1. The Endpoint is in a state that Open.vi should be able to be called
+2. During "Connected" values of connection state callbacks
