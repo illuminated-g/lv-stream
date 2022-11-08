@@ -27,6 +27,7 @@
 	<Item Name="Utilities" Type="Folder">
 		<Item Name="Has Trailing Slash.vi" Type="VI" URL="../Has Trailing Slash.vi"/>
 		<Item Name="Implode String.vi" Type="VI" URL="../Implode String.vi"/>
+		<Item Name="Parse URL Pattern String.vi" Type="VI" URL="../Parse URL Pattern String.vi"/>
 		<Item Name="Regex Submatch Array.vi" Type="VI" URL="../Regex Submatch Array.vi"/>
 		<Item Name="Set Trailing Slash.vi" Type="VI" URL="../Set Trailing Slash.vi"/>
 	</Item>
@@ -34,4 +35,6 @@
 	<Item Name="Endpoint.lvclass" Type="LVClass" URL="../Endpoint/Endpoint.lvclass"/>
 	<Item Name="Stream.lvclass" Type="LVClass" URL="../Stream/Stream.lvclass"/>
 	<Item Name="URI.lvclass" Type="LVClass" URL="../URI/URI.lvclass"/>
+	<Item Name="URLPattern.lvclass" Type="LVClass" URL="../URLPattern/URLPattern.lvclass"/>
+	<Item Name="URLPatternResult.lvclass" Type="LVClass" URL="../URLPatternResult/URLPatternResult.lvclass"/>
 </Library>
