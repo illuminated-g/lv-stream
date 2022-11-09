@@ -18,6 +18,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Palettes" Type="Folder">
+			<Item Name="Controls" Type="Folder">
+				<Item Name="Connection Class.ctl" Type="VI" URL="../palettes/Connection Class.ctl"/>
+				<Item Name="Endpoint Class.ctl" Type="VI" URL="../palettes/Endpoint Class.ctl"/>
+				<Item Name="Stream Class.ctl" Type="VI" URL="../palettes/Stream Class.ctl"/>
+				<Item Name="URI Class.ctl" Type="VI" URL="../palettes/URI Class.ctl"/>
+			</Item>
+			<Item Name="Functions" Type="Folder"/>
+		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test Parse Pattern.vi" Type="VI" URL="../test/Test Parse Pattern.vi"/>
 			<Item Name="Test Resolve Relative.vi" Type="VI" URL="../test/Test Resolve Relative.vi"/>

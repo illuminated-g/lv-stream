@@ -16,9 +16,6 @@
 	<Item Name="Data Types" Type="Folder">
 		<Item Name="Connection State.ctl" Type="VI" URL="../Connection State.ctl"/>
 		<Item Name="Data Direction.ctl" Type="VI" URL="../Data Direction.ctl"/>
-		<Item Name="Flatten Type.ctl" Type="VI" URL="../Flatten Type.ctl"/>
-		<Item Name="Message.ctl" Type="VI" URL="../Message.ctl"/>
-		<Item Name="Mode.ctl" Type="VI" URL="../Mode.ctl"/>
 	</Item>
 	<Item Name="Streams" Type="Folder">
 		<Item Name="FileStream.lvclass" Type="LVClass" URL="../FileStream/FileStream.lvclass"/>
