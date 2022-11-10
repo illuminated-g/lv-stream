@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 20:33:44" Modified_Date="2022-11-09 10:09:33" Creator="hal_dev" Comments="" ID="ae238dca3fbd37cc855aae8bb821a8f2">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 20:33:44" Modified_Date="2022-11-09 17:48:33" Creator="hal_dev" Comments="" ID="e7897bb14df7b531a76fc8c23be6f703">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_Stream_Base</Package_File_Name>
-    <Library_Version>1.2.0.46</Library_Version>
+    <Library_Version>1.2.0.47</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\vip</Library_Output_Folder>
@@ -308,7 +308,7 @@ This architecture is broken up in to 3 main classes:
         <Path>Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6B7A9A6A9FA607B5B612E733C408968C</GUID>
+      <GUID>CF786766B667F5F05931834943A739E9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -693,7 +693,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\Endpoint\Open.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2819F3B703979CAF24D527A8AF9C0486</GUID>
+      <GUID>57FC1E110960F1E0BC7312DC7DC5BF1C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -980,7 +980,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\URI\Set URI String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DB23A0ED91D9C0850573BA03FA3BFC11</GUID>
+      <GUID>8664866E6D549929347C5C000E31F824</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1029,7 +1029,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\FileStream\Init.vi</Path>
         <VI_Title>FileStream</VI_Title>
       </Items_Data>
-      <GUID>900162061AFE5850E34FE86CA5588D21</GUID>
+      <GUID>E9DA949AADB7C23622D0DE833AF2C816</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1078,7 +1078,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\Implode String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1AA3FAC9744425C228286DB270448271</GUID>
+      <GUID>90C1AC86160A5A69BAA010FE46F85D74</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1197,7 +1197,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\Data Direction.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7205B79223B67FA147EE4C95298ABE92</GUID>
+      <GUID>5EDAE330CEFF8F2DEA0718E4298B3741</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
