@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 20:33:44" Modified_Date="2022-11-09 17:48:33" Creator="hal_dev" Comments="" ID="e7897bb14df7b531a76fc8c23be6f703">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 20:33:44" Modified_Date="2025-03-28 18:08:15" Creator="hal_dev" Comments="" ID="7adb09327c03afcc6d92487306b9c8ce">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_Stream_Base</Package_File_Name>
-    <Library_Version>1.2.0.47</Library_Version>
+    <Library_Version>1.2.1.48</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\vip</Library_Output_Folder>
@@ -34,7 +34,11 @@ As this is 90% an abstract base library there are no examples demonstrating its 
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/lv-stream</URL>
-      <Release_Notes>- Fixed reentrancy for some callback management VIs
+      <Release_Notes>1.2.1
+- Remove Error Ring xnodes
+
+1.2.0
+- Fixed reentrancy for some callback management VIs
 - Made Close hierarchy re-entrant
 - Removed malleability of stream writing, only intent at this base layer is to handle already flattened data.
 - Added convenience paramters/values to stream for reading/writing length prepended data
@@ -308,7 +312,7 @@ This architecture is broken up in to 3 main classes:
         <Path>Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CF786766B667F5F05931834943A739E9</GUID>
+      <GUID>A999D92209201589CE1A4F4079DBB239</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -693,7 +697,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\Endpoint\Open.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>57FC1E110960F1E0BC7312DC7DC5BF1C</GUID>
+      <GUID>E4B53D5919C60B3878AFD2AB6503020A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -980,7 +984,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\URI\Set URI String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8664866E6D549929347C5C000E31F824</GUID>
+      <GUID>EE985D30CBCA9089521D7C438B2DDC9A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1029,7 +1033,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\FileStream\Init.vi</Path>
         <VI_Title>FileStream</VI_Title>
       </Items_Data>
-      <GUID>E9DA949AADB7C23622D0DE833AF2C816</GUID>
+      <GUID>CCA17A46EC5CBAD7A101C789C2CBE4E7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1078,7 +1082,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\Implode String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>90C1AC86160A5A69BAA010FE46F85D74</GUID>
+      <GUID>987CBE6016281F323253FA9DC662D84D</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1197,7 +1201,7 @@ This architecture is broken up in to 3 main classes:
         <Path>stream\Data Direction.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5EDAE330CEFF8F2DEA0718E4298B3741</GUID>
+      <GUID>290187F5E4A28DA970295F9CE494017B</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

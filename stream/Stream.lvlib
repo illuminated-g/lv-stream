@@ -17,6 +17,10 @@
 		<Item Name="Connection State.ctl" Type="VI" URL="../Connection State.ctl"/>
 		<Item Name="Data Direction.ctl" Type="VI" URL="../Data Direction.ctl"/>
 	</Item>
+	<Item Name="Errors" Type="Folder">
+		<Item Name="Error Duplicate Item.vi" Type="VI" URL="../Error Duplicate Item.vi"/>
+		<Item Name="Error Not Implemented.vi" Type="VI" URL="../Error Not Implemented.vi"/>
+	</Item>
 	<Item Name="Streams" Type="Folder">
 		<Item Name="FileStream.lvclass" Type="LVClass" URL="../FileStream/FileStream.lvclass"/>
 		<Item Name="StringStream.lvclass" Type="LVClass" URL="../StringStream/StringStream.lvclass"/>
@@ -30,6 +34,7 @@
 	</Item>
 	<Item Name="Connection.lvclass" Type="LVClass" URL="../Connection/Connection.lvclass"/>
 	<Item Name="Endpoint.lvclass" Type="LVClass" URL="../Endpoint/Endpoint.lvclass"/>
+	<Item Name="Error Bad State.vi" Type="VI" URL="../Error Bad State.vi"/>
 	<Item Name="Stream.lvclass" Type="LVClass" URL="../Stream/Stream.lvclass"/>
 	<Item Name="URI.lvclass" Type="LVClass" URL="../URI/URI.lvclass"/>
 	<Item Name="URLPattern.lvclass" Type="LVClass" URL="../URLPattern/URLPattern.lvclass"/>
