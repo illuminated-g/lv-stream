@@ -1,0 +1,10 @@
+{
+  "Info":{
+    "Name":"git:lv-stream",
+    "Type":"git",
+    "Source":"git@github.com:illuminated-g/lv-stream.git",
+    "Branch":"master",
+    "Version":"192b98224d666d8de75f24b825a2d27940fee478"
+  },
+  "Dependencies":[]
+}
