@@ -2,9 +2,10 @@
   "Info":{
     "Name":"git:lv-stream",
     "Type":"git",
-    "Source":"git@github.com:illuminated-g/lv-stream.git",
+    "Host":"git@github.com:illuminated-g/lv-stream.git",
+    "Path":"",
     "Branch":"master",
-    "Version":"192b98224d666d8de75f24b825a2d27940fee478"
+    "Version":"505e3d9001019fec0b4f607a60a1c0e134c89fe5"
   },
   "Dependencies":[]
 }
